@@ -1,0 +1,24 @@
+name: DeepwokenWeapons
+version: 1.0.0
+main: com.deepwoken.weapons.DeepwokenWeapons
+api-version: "1.21"
+description: Deepwoken-inspired legendary weapons for Paper 1.21.1
+authors: [YourName]
+
+commands:
+  giveweapon:
+    description: Give yourself or another player a Deepwoken weapon
+    usage: /giveweapon <weapon> [player]
+    permission: deepwoken.give
+  bloodbar:
+    description: Toggle the blood bar HUD
+    usage: /bloodbar
+    permission: deepwoken.bloodbar
+
+permissions:
+  deepwoken.give:
+    description: Ability to give Deepwoken weapons
+    default: op
+  deepwoken.bloodbar:
+    description: Ability to toggle the blood bar
+    default: true
