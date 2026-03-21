@@ -776,7 +776,6 @@ public class WeaponListener implements Listener {
         }}.runTaskTimer(plugin,0L,1L);
     }
 
-    private void spawnIceExplosions(Player p, int stage){ /* handled inline in critHailbreaker */ }
 
     private void lightning(Location l){ l.getWorld().strikeLightningEffect(l); }
     private void slow(LivingEntity e, int amp, int dur){ e.addPotionEffect(new PotionEffect(PotionEffectType.SLOWNESS,dur,amp,false,true,true)); }
